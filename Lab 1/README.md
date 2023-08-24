@@ -2,7 +2,13 @@
 
 # Staging Interaction
 
-\*\***NAME OF COLLABORATORS HERE**\*\*
+\*\*
+Shai Aarons (sla88)
+Ariana Bhigroog (ab2959)
+Jon Caceres (jc3569)
+Rachel Minkowitz (rhm256)
+Amando Xu (ax45)
+\*\*
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
