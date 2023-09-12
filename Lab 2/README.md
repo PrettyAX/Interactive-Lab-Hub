@@ -1,5 +1,16 @@
 # Interactive Prototyping: The Clock of Pi
-**NAMES OF COLLABORATORS HERE**
+
+**COLLABORATORS:**
+
+**Shai Aarons (sla88)**
+
+**Ariana Bhigroog (ab2959)**
+
+**Jon Caceres (jc3569)**
+
+**Rachel Minkowitz (rhm256)**
+
+**Amando Xu (ax45)**
 
 Does it feel like time is moving strangely during this semester?
 
@@ -200,6 +211,11 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 
 Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www.billverplank.com/IxDSketchBook.pdf)!
 
+<img src="media/sketch1.jpg">
+<img src="media/sketch2.jpeg">
+
+***Museum artwork by Rachel Minkowitz***
+
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
 
@@ -215,15 +231,36 @@ After you edit and work on the scripts for Lab 2, the files should be upload bac
 
 After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
 
+**DESCRIPTION**
+
+We designed a 'zodiac clock' which ticks each day and shows the progress through the current Zodiac season. For example, the Virgo season in 2023 spans from August 23 to September 22. On September 11, we would be 63.33% through Virgo season, as shown in the fabulous image below:
+
+<img src="media/clockAndDate.jpg" />
+
+***Image by Rachel Minkowitz***
+
+**INSTRUCTIONS FOR USE**
+
+Run `screen_clock.py` in order for the clock to appear on the LCD screen. The main logic for our clock is located in `astrology_clock.py`
+
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
-\*\*\***Take a video of your PiClock.**\*\*\*
+[![Video](https://img.youtube.com/vi/stTStYaP5z0/0.jpg)](https://www.youtube.com/watch?v=stTStYaP5z0)
+<br>
+**Please click to play @ Youtube**
+***Filmography by Jon Caceres***
+<br>
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+In a future iteration, we plan to allow the user to interact with the app using the buttons on the LCD screen and display the current date's horoscope via an API.
+
+<img src="media/sketch3.jpg">
+
+***Award-winning art by Ariana Bhigroog***
 
 # Prep for Part 2
 
