@@ -290,4 +290,3 @@ Shai: We could use our system to build a database of a user's emotions throughou
 
 Amando: Besides recording down the moods of the user throughout the day, it could be made more long-term to track monthly fluctuations in mood as well as dealing with seasonal fluctuations of mood. With this dataset, we can make better recommendations with regards to time of the year. 
 Other sensing modalities that would make sense to capture would be the user of the webcam itself on the controller. The webcam would be monitoring the user’s facial expression and when appropriate automatically suggest a song that could elevate the mood of the user. 
-
