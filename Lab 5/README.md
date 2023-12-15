@@ -1,6 +1,17 @@
 # Observant Systems
 
-**Shai Aarons (sla88), Ariana Bhigroog (ab2959), Jon Caceres (jc3569), Rachel Minkowitz (rhm256), Amando Xu (ax45)**
+
+**COLLABORATORS:**
+
+**Shai Aarons (sla88)**
+
+**Ariana Bhigroog (ab2959)**
+
+**Jon Caceres (jc3569)**
+
+**Rachel Minkowitz (rhm256)**
+
+**Amando Xu (ax45)**
 
 
 For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. 
@@ -15,15 +26,10 @@ This lab will help you think through the design of observant systems, particular
 3.  Read about [OpenCV](https://opencv.org/about/),[Pytorch](https://pytorch.org/), [MediaPipe](https://mediapipe.dev/), and [TeachableMachines](https://teachablemachine.withgoogle.com/).
 4.  Read Belloti, et al.'s [Making Sense of Sensing Systems: Five Questions for Designers and Researchers](https://www.cc.gatech.edu/~keith/pubs/chi2002-sensing.pdf).
 
-### For the lab, you will need:
-1. Pull the new Github Repo
-1. Raspberry Pi
-1. Webcam 
-
 ### Deliverables for this lab are:
 1. Show pictures, videos of the "sense-making" algorithms you tried.
-1. Show a video of how you embed one of these algorithms into your observant system.
-1. Test, characterize your interactive device. Show faults in the detection and how the system handled it.
+2. Show a video of how you embed one of these algorithms into your observant system.
+3. Test, characterize your interactive device. Show faults in the detection and how the system handled it.
 
 ## Overview
 Building upon the paper-airplane metaphor (we're understanding the material of machine learning for design), here are the four sections of the lab activity:
@@ -84,7 +90,6 @@ To get started, install dependencies into a virtual environment for this exercis
 
 Each of the installs will take a while, please be patient. After successfully installing mediapipe, connect your webcam to your Pi and use **VNC to access to your Pi**, open the terminal, and go to Lab 5 folder and run the hand pose detection script we provide:
 (***it will not work if you use ssh from your laptop***)
-
 
 ```
 (venv-ml) pi@ixe00:~ $ cd Interactive-Lab-Hub/Lab\ 5
@@ -217,8 +222,6 @@ During the lecture, we mentioned questions to help characterize a material:
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
 We could use our healthy/unhealthy houseplant checking system to check whether a plant needs watering. A good environment for this system is a simple environment without many external distractions. A bad enviroment is a place that has lots of unknown items and distracting features. Our houseplant system will break when the background is too distracting and we show it a species of houseplant that it was not trained on. When the system breaks it classifies the unhealthy plant as healthy and the healthy plant as unhealthy. 
-
-WIP: video to be uploaded 
 
 ### Part 2.
 
